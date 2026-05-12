@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Estates — Luxury Real Estate India</title>
+    <meta name="description" content="India's most exclusive luxury real estate consultancy. Curated residences in Mumbai, Delhi NCR, Bengaluru, Hyderabad & Goa.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=DM+Sans:wght@400&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-loader"><div class="loader-bar"></div></div>
+    <div class="noise-overlay"></div>
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html#properties">Properties</a>
+        <a href="index.html#market">Market</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="mumbai.html">Mumbai</a>
+        <a href="delhi.html">Delhi NCR</a>
+        <a href="bengaluru.html">Bengaluru</a>
+        <a href="hyderabad.html">Hyderabad</a>
+        <a href="goa.html">Goa</a>
+        <a href="index.html#contact" class="nav-cta" style="margin-top:1rem;">Book Consultation</a>
+    </div>
+
+    <nav id="navbar">
+        <a href="index.html" class="logo"><span class="logo-diamond"></span>AURA · ESTATES</a>
+        <div class="nav-links">
+            <a href="index.html#properties">Properties</a>
+            <a href="index.html#market">Market</a>
+            <a href="index.html#about">About</a>
+            <div class="nav-dropdown">
+                <a href="#" class="nav-dropdown-trigger">Cities ▾</a>
+                <div class="nav-dropdown-menu">
+                    <a href="mumbai.html">Mumbai</a>
+                    <a href="delhi.html">Delhi NCR</a>
+                    <a href="bengaluru.html">Bengaluru</a>
+                    <a href="hyderabad.html">Hyderabad</a>
+                    <a href="goa.html">Goa</a>
+                </div>
+            </div>
+            <a href="index.html#contact">Contact</a>
+            <a href="index.html#contact" class="nav-cta">Book Consultation</a>
+        </div>
+        <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-particles" id="heroParticles"></div>
+        <svg class="skyline-svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#C8883A" fill-opacity="0.2" d="M0,320 L0,280 L40,280 L40,240 L80,240 L80,200 L120,200 L120,260 L160,260 L160,180 L200,180 L200,220 L240,220 L240,160 L280,160 L280,240 L320,240 L320,190 L360,190 L360,250 L400,250 L400,170 L440,170 L440,230 L480,230 L480,150 L520,150 L520,210 L560,210 L560,180 L600,180 L600,260 L640,260 L640,140 L680,140 L680,220 L720,220 L720,160 L760,160 L760,240 L800,240 L800,180 L840,180 L840,250 L880,250 L880,190 L920,190 L920,230 L960,230 L960,170 L1000,170 L1000,210 L1040,210 L1040,150 L1080,150 L1080,240 L1120,240 L1120,180 L1160,180 L1160,220 L1200,220 L1200,160 L1240,160 L1240,200 L1280,200 L1280,260 L1320,260 L1320,180 L1360,180 L1360,240 L1400,240 L1400,280 L1440,280 L1440,320 Z"/>
+        </svg>
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1 class="hero-headline" id="heroHeadline">Where Architecture Becomes Legacy</h1>
+                <p class="hero-subline">MUMBAI · DELHI NCR · BENGALURU · EST. 2009</p>
+                <div class="hero-ctas">
+                    <a href="#properties" class="cta-primary">Explore Properties</a>
+                    <a href="#contact" class="cta-ghost">Schedule a Private Viewing</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="hero-card-image">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Oberoi Sky Heights Penthouse" loading="lazy">
+                </div>
+                <div class="hero-card-price">₹18.5 Cr</div>
+                <div class="hero-card-title">Oberoi Sky Heights</div>
+                <div class="hero-card-location">Worli, Mumbai — 4 BHK Penthouse</div>
+                <div class="hero-card-stats">
+                    <span class="stat-chip">4,800 sq ft</span>
+                    <span class="stat-chip">4 BHK</span>
+                    <span class="stat-chip">40th Floor</span>
+                </div>
+                <a href="mumbai.html" class="hero-card-link">View Details →</a>
+            </div>
+        </div>
+        <div class="stats-ticker">
+            <div class="ticker-track">
+                <span class="ticker-item">Luxury sales +37.8% YoY</span>
+                <span class="ticker-item">₹18.5 Cr Worli Penthouse</span>
+                <span class="ticker-item">850K+ HNIs in India</span>
+                <span class="ticker-item">15%+ annual appreciation</span>
+                <span class="ticker-item">USD 13.1B NRI investment</span>
+                <span class="ticker-item">India luxury market $38.02B (2024)</span>
+                <span class="ticker-item">Projected $101.92B by 2029</span>
+                <span class="ticker-item">CAGR 21.81%</span>
+                <span class="ticker-item">Luxury sales +37.8% YoY</span>
+                <span class="ticker-item">₹18.5 Cr Worli Penthouse</span>
+                <span class="ticker-item">850K+ HNIs in India</span>
+                <span class="ticker-item">15%+ annual appreciation</span>
+                <span class="ticker-item">USD 13.1B NRI investment</span>
+                <span class="ticker-item">India luxury market $38.02B (2024)</span>
+                <span class="ticker-item">Projected $101.92B by 2029</span>
+                <span class="ticker-item">CAGR 21.81%</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured" id="properties">
+        <h2 class="section-heading reveal">Curated for the Discerning</h2>
+        <p class="section-subheading reveal">5 exceptional residences across India's prime corridors</p>
+        <div class="bento-grid">
+            <div class="bento-card reveal stagger-1">
+                <div class="bento-card-bg"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80" alt="DLF The Camellias" loading="lazy"></div>
+                <div class="bento-card-overlay">
+                    <span class="price-badge">₹32 Cr</span>
+                    <span class="city-tag">Gurugram</span>
+                    <div class="bento-card-details"><h3>DLF The Camellias</h3><p>5 BHK Ultra-Luxury · 9,000 sq ft<br>Premium golf-facing residence.</p></div>
+                </div>
+            </div>
+            <div class="bento-card reveal stagger-2">
+                <div class="bento-card-bg"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Lodha Adrina" loading="lazy"></div>
+                <div class="bento-card-overlay">
+                    <span class="price-badge">₹5.2 Cr</span>
+                    <span class="city-tag">Mumbai</span>
+                    <div class="bento-card-details"><h3>Lodha Adrina</h3><p>3 BHK Sky Residence · 1,334 sq ft<br>Panoramic Arabian Sea views.</p></div>
+                </div>
+            </div>
+            <div class="bento-card reveal stagger-3">
+                <div class="bento-card-bg"><img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80" alt="Oberoi Sky Heights" loading="lazy"></div>
+                <div class="bento-card-overlay">
+                    <span class="price-badge">₹18.5 Cr</span>
+                    <span class="city-tag">Mumbai</span>
+                    <div class="bento-card-details"><h3>Oberoi Sky Heights</h3><p>4 BHK Penthouse · 4,800 sq ft<br>40th floor legacy residence.</p></div>
+                </div>
+            </div>
+            <div class="bento-card reveal stagger-1">
+                <div class="bento-card-bg"><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Brigade Orchards" loading="lazy"></div>
+                <div class="bento-card-overlay">
+                    <span class="price-badge">₹4.8 Cr</span>
+                    <span class="city-tag">Bengaluru</span>
+                    <div class="bento-card-details"><h3>Brigade Orchards</h3><p>4 BHK Garden Villa · 3,200 sq ft<br>Serene golf resort living.</p></div>
+                </div>
+            </div>
+            <div class="bento-card reveal stagger-2">
+                <div class="bento-card-bg"><img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=80" alt="Godrej BKC" loading="lazy"></div>
+                <div class="bento-card-overlay">
+                    <span class="price-badge">₹6.9 Cr</span>
+                    <span class="city-tag">Mumbai</span>
+                    <div class="bento-card-details"><h3>Godrej BKC</h3><p>3 BHK · 1,800 sq ft<br>Business district luxury.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="market" id="market">
+        <div class="market-inner">
+            <h2 class="section-heading reveal" style="margin-bottom:4rem;">The Numbers Don't Lie</h2>
+            <div class="counters">
+                <div class="counter-item reveal stagger-1">
+                    <div class="counter-number" data-target="38.02" data-prefix="$" data-suffix="B">$0</div>
+                    <div class="counter-label">Luxury Market Size (2024)</div>
+                </div>
+                <div class="counter-item reveal stagger-2">
+                    <div class="counter-number" data-target="37.8" data-prefix="" data-suffix="%">0%</div>
+                    <div class="counter-label">YoY Growth (Jan–Sep 2024)</div>
+                </div>
+                <div class="counter-item reveal stagger-3">
+                    <div class="counter-number" data-target="850" data-prefix="" data-suffix="K+">0</div>
+                    <div class="counter-label">High Net Worth Individuals</div>
+                </div>
+            </div>
+            <div class="city-band reveal">
+                <a href="mumbai.html" class="city-card"><h4>Mumbai</h4><div class="city-stat">+18%</div><div class="city-stat-label">YoY Growth</div><div class="city-micro">3,820 units · Avg ₹8.2 Cr</div><div class="city-link-arrow">Explore Mumbai →</div></a>
+                <a href="delhi.html" class="city-card"><h4>Delhi NCR</h4><div class="city-stat">+72%</div><div class="city-stat-label">YoY Growth</div><div class="city-micro">5,855 units · Avg ₹6.5 Cr</div><div class="city-link-arrow">Explore Delhi NCR →</div></a>
+                <a href="bengaluru.html" class="city-card"><h4>Bengaluru</h4><div class="city-stat">+24%</div><div class="city-stat-label">YoY Growth</div><div class="city-micro">2,100 units · Avg ₹5.1 Cr</div><div class="city-link-arrow">Explore Bengaluru →</div></a>
+                <a href="hyderabad.html" class="city-card"><h4>Hyderabad</h4><div class="city-stat">+31%</div><div class="city-stat-label">YoY Growth</div><div class="city-micro">1,450 units · Avg ₹4.8 Cr</div><div class="city-link-arrow">Explore Hyderabad →</div></a>
+                <a href="goa.html" class="city-card"><h4>Goa</h4><div class="city-stat">+42%</div><div class="city-stat-label">YoY Growth</div><div class="city-micro">680 units · Avg ₹7.2 Cr</div><div class="city-link-arrow">Explore Goa →</div></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-aura" id="about">
+        <h2 class="section-heading reveal">Why Aura</h2>
+        <div class="why-grid">
+            <div class="why-card reveal stagger-1">
+                <svg class="why-icon" viewBox="0 0 48 48"><path d="M24 4L4 14v20l20 10 20-10V14L24 4z"/><path d="M4 14l20 10 20-10"/><path d="M24 24v20"/></svg>
+                <h3>Off-Market Access</h3>
+                <p>First look at properties never listed publicly. Quiet exclusivity for those who value discretion.</p>
+            </div>
+            <div class="why-card reveal stagger-2">
+                <svg class="why-icon" viewBox="0 0 48 48"><circle cx="24" cy="24" r="18"/><path d="M24 14v10l6 6"/></svg>
+                <h3>Concierge Due Diligence</h3>
+                <p>47-point verification: title clarity, RERA compliance, developer track record, and infrastructure mapping.</p>
+            </div>
+            <div class="why-card reveal stagger-3">
+                <svg class="why-icon" viewBox="0 0 48 48"><path d="M8 24c0-8.8 7.2-16 16-16s16 7.2 16 16-7.2 16-16 16"/><path d="M24 24l8-8"/><path d="M24 8v8"/></svg>
+                <h3>NRI Investment Desk</h3>
+                <p>FEMA compliance, repatriation structuring, and power-of-attorney execution handled globally.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="testimonials-heading reveal">Client Voices</h2>
+        <div class="testimonial-carousel" id="testimonialCarousel">
+            <div class="testimonial-card">
+                <div class="testimonial-quote">"Aura understood that I wasn't buying square footage—I was buying a legacy for my children."</div>
+                <div class="testimonial-author">Vikram Mehta</div>
+                <div class="testimonial-role">CEO, Mumbai · 4 BHK Penthouse</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-quote">"The NRI desk closed my Gurugram acquisition without me flying to India once."</div>
+                <div class="testimonial-author">Priya Nambiar</div>
+                <div class="testimonial-role">Director, Dubai · 5 BHK Ultra-Luxury</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-quote">"Their market intelligence was more sophisticated than what my private bank produced."</div>
+                <div class="testimonial-author">Arjun Krishnan</div>
+                <div class="testimonial-role">CFO, Bengaluru · Garden Villa</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-left reveal"><h2>Your next address begins with a conversation.</h2></div>
+        <form class="contact-form reveal stagger-2" onsubmit="event.preventDefault(); this.querySelector('.submit-btn').textContent='✓ Request Sent'; this.querySelector('.submit-btn').style.background='var(--amber-gold)'; this.querySelector('.submit-btn').style.color='var(--midnight)';">
+            <div class="form-group"><input type="text" id="name" placeholder=" " required><label for="name">Full Name</label></div>
+            <div class="form-group"><input type="tel" id="phone" placeholder=" " required><label for="phone">Phone Number</label></div>
+            <div class="form-group select-wrapper"><select id="city" required><option value="" disabled selected></option><option>Mumbai</option><option>Delhi NCR</option><option>Bengaluru</option><option>Goa</option><option>Hyderabad</option></select><label for="city">City of Interest</label></div>
+            <div class="form-group select-wrapper"><select id="budget" required><option value="" disabled selected></option><option>₹3 – 7 Cr</option><option>₹7 – 15 Cr</option><option>₹15 – 30 Cr</option><option>₹30 Cr+</option></select><label for="budget">Budget Range</label></div>
+            <div class="form-group"><textarea id="message" placeholder=" "></textarea><label for="message">Message</label></div>
+            <button type="submit" class="submit-btn">Submit Request</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-wordmark">AURA · ESTATES</div>
+            <div class="footer-grid">
+                <div class="footer-col"><h4>Quick Links</h4><a href="#properties">Properties</a><a href="#market">Market Intelligence</a><a href="#about">About Aura</a><a href="#contact">Book a Viewing</a></div>
+                <div class="footer-col"><h4>Cities</h4><a href="mumbai.html">Mumbai</a><a href="delhi.html">Delhi NCR</a><a href="bengaluru.html">Bengaluru</a><a href="goa.html">Goa</a><a href="hyderabad.html">Hyderabad</a></div>
+                <div class="footer-col"><h4>Legal</h4><p>MAHARERA P51900047591</p><p>DLRERA2024P0045</p><p>K.GIS.88/334/2024</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-rule"></div>
+            <div class="footer-bottom"><p>© 2025 Aura Estates Pvt. Ltd. All rights reserved.</p><p>CIN: U70100MH2009PTC195482</p></div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="abc.js"></script>
+</body>
+</html>
